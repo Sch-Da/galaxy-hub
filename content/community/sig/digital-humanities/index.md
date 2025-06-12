@@ -17,6 +17,7 @@ Here are some examples:
 
 ## Publications / Examples
 
+<!-- not sure, if indenting and bullet pointing works together as intended? -->
     - We explored Instagram posts from the Bavarian State elections provided by the [BERD Data Portal](https://www.berd-nfdi.de/data-portal/). [Read more](https://galaxyproject.org/news/2025-05-20-berd-wf/) to see how the dataset was cleaned and mined to visualise not only the most frequent words in the post to get an idea of its contents, but also extracted and mapped where most of those posts originated in just a couple of steps in Galaxy.
 
     - Check out the [poster](https://doi.org/10.11588/heidok.00036288) on Galaxy in the Humanities that Daniela Schneider and Jan Leendertse presented at the [E-Science Days 2025](https://artifact.galaxyproject.org/news/2025-03-14-e-science-days/).
@@ -41,7 +42,7 @@ This is a non-exhaustive overview of Galaxy tools applicable to Humanities and S
     
 ### **Text tools**
     - diff: Comparing two text documents
-    - Editor: make small manual changes that will not be tracked. Find the editor on the left-hand side panel under *Visualisations*.
+    - Editor: make small manual changes that will not be tracked. Find the editor on the left-hand side panel under *Visualisations*.<!-- In fact, I even think that Editors are the better choice for dealing with huge text amounts. It works with the actual characters instead of interpreted stuff only accessible with clumsy software (aka M$ Word), and its output guarantees long term accessibility. -->
     - Regular Expressions: Various tools in Galaxy to help you select specific patterns from your text as explained [here](https://training.galaxyproject.org/training-material/faqs/galaxy/analysis_regular_expressions.html).
     - GPT: Large language model - this is only accessible with the OpenAI credentials. Find more information on how to set this up [here](https://galaxyproject.org/news/2024-09-02-chat-gpt/).
 
